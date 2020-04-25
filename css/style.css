@@ -1,0 +1,558 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 2;
+    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
+    width: auto;
+    height: auto;
+    min-width: 375px;
+}
+
+h1,h2,h3,h4,h5,p {
+    margin-top: 0;
+    line-height: 2;
+}
+
+.wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+img {
+    width:100%;
+    max-width: 100%;
+    height: auto;
+}
+
+/*
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+*/
+
+.ds-pc {
+    display: block;
+}
+
+.ds-sm {
+    display: none;
+}
+
+/*common*/
+
+.heading {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.heading::after {
+    content: '';
+    display: block;
+    background-color: black;
+    width: 69px;
+    height: 5px;
+    margin-bottom: 18px;
+}
+/*common*/
+
+/*header*/
+
+.top-header {
+    padding-bottom: 1.5vw;
+}
+
+.top-page {
+    background: url(../images/maskgroup.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.top-page .top-logo {
+    color: black;
+    float: left;
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 33px;
+    margin-left: 40px;
+}
+.top-page .top-logo h1 {
+    color: #fff;
+}
+.top-page .top-logo p {
+    display: flex;
+    font-size: 12px;
+}
+
+.top-page .top-nav {
+    float: right;
+    margin-top: 33px;
+}
+.top-page .top-menu {
+    display: flex;
+}
+
+.menu-list .btn {
+    transition: 0.5s;
+}
+
+.menu-list .btn:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.top-page .menu-list {
+    margin: 0 1.5vw;
+    font-family: Gotham Bold;
+    font-size: 18px;
+}
+.top-page .menu-list a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+
+.top-page .top-itle {
+    position: relative;
+}
+.top-container {
+    text-align: center;
+    margin-top: 15vw;
+}
+.top-page .top-itle p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+}
+.top-page h2 {
+    letter-spacing: .3vw;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 1;
+    margin-bottom: 3vw;
+}
+
+.mark a {
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top: 88%;
+    text-decoration: none;
+    color: #fff;
+}
+
+.mark img {
+    display: flex;
+    width: 60px;
+}
+
+/*header*/
+
+/*about*/
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin: 180px 0 115px;
+}
+.about .about-box {
+    background-color: #F0F0F0;
+    border: 1px solid black;
+    padding: 2rem;
+}
+
+.about .about-txt h3 {
+    margin: 32px 0;
+    font-size: 24px;
+}
+.about .about-txt p {
+    width: 24vw;
+}
+
+.about .about-face {
+    margin: auto 15px;
+}
+
+/*about*/
+
+/*item*/
+
+.item {
+    max-width: 1090px;
+}
+
+.item-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 294px;
+}
+
+.figure-list {
+    transition: 0.5s;
+}
+
+.figure-list:hover {
+    transform: scale(1.1);
+    opacity: .7;
+}
+
+.figure-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.item-list .figure-list {
+    flex-wrap: wrap;
+    margin: 42px 1vw 0;
+    width: 30%;
+}
+
+.item-cosme {
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.item-list .item-txt .item-details-c {
+    text-align: center;
+}
+
+/*item*/
+
+/*price*/
+
+.price {
+    position: relative;
+    margin-bottom: 45rem;
+}
+.price-box {
+    border: 4px solid #A38787;
+    text-align: center;
+    width: 37vw;
+    padding: 35px 0 80px;
+    background-color: #fff;
+    opacity: 0.8;
+}
+
+.price-box .heading::after {
+    content: '';
+    display: block;
+    background-color: black;
+    width: 69px;
+    height: 5px;
+    margin: 0 auto;
+    margin-bottom: 18px;
+}
+
+.price-box table {
+    width: 25vw;
+    margin: 0 auto;
+    margin-top: 81px;
+}
+
+.price-box .price-under {
+    transition: 0.5s;
+    border-bottom: 1px dashed black;
+}
+.price-box .price-under:hover {
+    background-color: #eee;
+}
+.price-name {
+    text-align: left;
+}
+.price-nam {
+    text-align: right;
+}
+
+.price-img {
+    position: absolute;
+    left: 47%;
+    top: 95px;
+    z-index: -1;
+}
+
+/*price*/
+
+/*blog*/
+
+.blog {
+    margin-top: 177px;
+    margin-bottom: 233px;
+}
+
+.blog-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 62px 0px;
+/*    flex-wrap: wrap;*/
+}
+.blog-list .figure-list {
+    list-style: none;
+}
+
+.blog-list .figure-list {
+    transition: 0.5s;
+}
+
+.blog-list .figure-list:hover {
+    transform: scale(1.1);
+    opacity: .7;
+}
+
+.blog-list .figure-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.blog-list .figure-list img .blog-time {
+    font-weight: bold;
+}
+
+/*blog*/
+
+/*access*/
+
+.access-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.access-container dt {
+    font-size: 24px;
+    font-family: Montserrat;
+}
+
+.access-container .gmap {
+    margin-bottom: 152px;
+}
+
+.access-container iframe {
+    width: 48vw;
+}
+
+/*rute*/
+
+.rute {
+    width: 55.5vw;
+    margin: 0 auto;
+}
+.rute h3 {
+    font-size: 24px;
+    margin-bottom: 31px;
+}
+.rute .rute-list {
+    list-style: none;
+}
+.rute li {
+    margin-bottom: 20px;
+}
+
+/*rute*/
+
+/*access*/
+
+/*footer*/
+
+footer {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 80px;
+    font-weight: bold;
+    background-color: #262626;
+    color: #fff;
+    padding: 40px 0;
+    margin-top: 179px;
+    letter-spacing: 5px;
+}
+
+/*footer*/
+
+@media screen and (max-width: 768px) {
+    
+    .wrap {
+        width: 100%;
+    }
+    
+    .ds-pc {
+        display: none;
+    }
+
+    .ds-sm {
+        display: block;
+    }
+    
+    .heading {
+        font-size: 38px;
+    }
+    
+    /*header*/
+    
+    .top-page .top-logo {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+    .top-page {
+        height: 667px;
+    }
+    .top-container {
+        margin-top: 25vh;
+        
+    }
+    .top-page h2 {
+        letter-spacing: 0;
+        font-size: 2rem;
+        margin-bottom: 32px;
+    }
+    .top-page .top-itle p {
+        margin: 0 auto;
+        width: 60vw;
+        font-size: 1rem;
+        font-weight: normal;
+        line-height: 1.5;
+    }
+    
+    .mark {
+        width: 37px;
+        top: 90%;
+    }
+    
+    /*header*/
+    
+    /*about*/
+
+    .about {
+        flex-direction: column;
+    }
+    .about .about-box {
+        background: none;
+        border: none;
+    }
+    .about .about-title h2 {
+        margin-top: -50px;
+    }
+
+    .about .about-txt p {
+        width: 90vw;
+    }
+
+    .about .about-face {
+        padding: 0 5%;
+    }
+
+    /*about*/
+
+    /*item*/
+
+    .item {
+        padding: 0 5%;
+        margin-bottom: 146px;
+    }
+    .item .item-list {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .item-list .figure-list {
+        width: 100%;
+    }
+    .item .item-txt .item-cosme {
+        width: 90vw;
+    }
+
+    /*item*/
+
+    /*price*/
+
+    .price {
+        padding: 0 4%;
+        margin-bottom: 107px;
+    }
+    .price .price-box {
+        width: 90vw;
+    }
+    .price table {
+        width: 75vw;
+    }
+    .price .price-img {
+        top: -15%;
+        left: -20%;
+        width: 150%;
+    }
+    
+    /*price*/
+
+    /*blog*/
+
+    .blog {
+        padding: 0 5%;
+    }
+    .blog .blog-list {
+        flex-wrap: wrap;
+        margin-bottom: -130px;
+    }
+    .blog .blog-list .figure-list {
+        width: 44vw;
+        margin-bottom: 32px;
+    }
+    .blog .blog-list .figure-list .blog-txt .blog-details {
+        font-size: 12px;
+    }
+    .blog .blog-list .figure-list b {
+        font-size: 12px;
+    }
+
+    /*blog*/
+
+    /*access*/
+
+    .access {
+        padding: 0 5%;
+    }
+    .access .access-container {
+        flex-direction: column;
+        margin-top: 44px;
+    }
+    .access .access-info {
+        margin-bottom: 33px;
+    }
+    .access-map-h3 {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .access b {
+        font-size: 18px;
+    }
+    .access dd {
+        font-size: 12px;
+    }
+    .access .gmap {
+        margin-bottom: 37px
+    }
+    .access iframe {
+        width: 100%;
+    }
+    .access .rute {
+        width: 100%
+    }
+
+    /*access*/
+    
+    footer {
+        font-size: 40px;
+        font-weight: bold;
+        padding: 70px 0 63px;
+    }
+}
